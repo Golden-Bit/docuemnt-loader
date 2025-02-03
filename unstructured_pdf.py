@@ -1,7 +1,7 @@
 from langchain_unstructured import UnstructuredLoader
 
 file_path = "source_data_dir/subdirectory/marvel-1-10.pdf"
-
+file_path = "source_data_dir/subdirectory/Funzionalità Sito Web.docx"
 
 # 🔍 Disattiva l'uso dell'API Unstructured con `partition_via_api=False`
 loader = UnstructuredLoader(
